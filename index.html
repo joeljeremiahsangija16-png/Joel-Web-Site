@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="SDCN connects people to products, vehicles, and trusted services through a modern digital commerce network in Tanzania."
+    />
+    <title>SDCN | Digital Commerce Network</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="index.html" class="brand" aria-label="SDCN home page">
+          <img src="assets/logo.svg" alt="SDCN logo" />
+          <span>SDCN</span>
+        </a>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <span class="nav-indicator" aria-hidden="true"></span>
+          <a class="nav-link active" href="index.html" data-i18n="navHome">Home</a>
+          <a class="nav-link" href="about.html" data-i18n="navAbout">About</a>
+          <a class="nav-link" href="listings.html" data-i18n="navListings">Listings</a>
+          <a class="nav-link" href="carwash.html" data-i18n="navCarWash">Car Wash</a>
+          <a class="nav-link" href="suppliers.html" data-i18n="navSuppliers">Suppliers</a>
+          <a class="nav-link" href="contact.html" data-i18n="navContact">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+          <label class="language-picker" aria-label="Select language">
+            <select id="languageSelect">
+              <option value="" disabled selected>Choose language</option>
+              <option value="en">English</option>
+              <option value="sw">Swahili</option>
+              <option value="fr">Français</option>
+              <option value="es">Español</option>
+              <option value="ar">العربية</option>
+              <option value="de">Deutsch</option>
+              <option value="zh">中文</option>
+              <option value="pt">Português</option>
+              <option value="hi">हिन्दी</option>
+              <option value="ja">日本語</option>
+              <option value="it">Italiano</option>
+              <option value="ru">Русский</option>
+              <option value="tr">Türkçe</option>
+              <option value="ko">한국어</option>
+              <option value="af">Afrikaans</option>
+            </select>
+          </label>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow" data-i18n="eyebrow">SILIMA DIGITAL COMMERCE NETWORK</p>
+            <h1 data-i18n="heroTitle">Connecting People to Products. Creating Opportunities.</h1>
+            <p class="subtitle" data-i18n="heroSubtitle">
+              A trusted digital marketplace for electronics, everyday products,
+              vehicles, and mobile car care services across Tanzania.
+            </p>
+
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="listings.html" data-i18n="browseBtn">Browse Products</a>
+              <a class="btn btn-secondary" href="carwash.html" data-i18n="washBtn">Request Car Wash</a>
+            </div>
+
+            <ul class="trust-points">
+              <li data-i18n="trust1">Verified listings</li>
+              <li data-i18n="trust2">WhatsApp-first support</li>
+              <li data-i18n="trust3">English + Kiswahili</li>
+            </ul>
+          </div>
+
+          <div class="hero-visual">
+            <div class="image-card large-card" aria-label="Featured business visuals">
+              <div class="hero-slide active">
+                <img
+                  src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80"
+                  alt="Business team collaborating"
+                />
+              </div>
+              <div class="hero-slide">
+                <img
+                  src="https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&fit=crop&w=900&q=80"
+                  alt="Retail store display"
+                />
+              </div>
+              <div class="hero-slide">
+                <img
+                  src="https://images.unsplash.com/photo-1516321165247-4aa89a48be28?auto=format&fit=crop&w=900&q=80"
+                  alt="Customer service and digital sales"
+                />
+              </div>
+              <div class="hero-slide">
+                <img
+                  src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=900&q=80"
+                  alt="Modern office and business growth"
+                />
+              </div>
+            </div>
+            <div class="floating-badge">
+              <strong data-i18n="badgeTitle">Trusted</strong>
+              <span data-i18n="badgeSubtitle">Local marketplace</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats">
+        <div class="container stats-grid">
+          <div class="stat-item">
+            <strong>5</strong>
+            <span data-i18n="stat1">Core business categories</span>
+          </div>
+          <div class="stat-item">
+            <strong>24/7</strong>
+            <span data-i18n="stat2">WhatsApp inquiries</span>
+          </div>
+          <div class="stat-item">
+            <strong>Mobile</strong>
+            <span data-i18n="stat3">Friendly shopping</span>
+          </div>
+          <div class="stat-item">
+            <strong>Bilingual</strong>
+            <span data-i18n="stat4">EN + SW content</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="categories" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-tag" data-i18n="catTag">Our categories</p>
+            <h2 data-i18n="catHeading">Business units built for everyday needs</h2>
+          </div>
+
+          <div class="category-grid">
+            <article class="category-card">
+              <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=800&q=80" alt="Electronic devices" />
+              <div class="card-copy">
+                <h3>SILIMA TRONICS CENTER</h3>
+                <p data-i18n="cat1Text">Phones, electronics and technology accessories.</p>
+              </div>
+            </article>
+
+            <article class="category-card">
+              <img src="https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=800&q=80" alt="Shopping items" />
+              <div class="card-copy">
+                <h3>SILIMA ONLINE MART</h3>
+                <p data-i18n="cat2Text">Everyday and general merchandise with value-first choices.</p>
+              </div>
+            </article>
+
+            <article class="category-card">
+              <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=800&q=80" alt="Car accessories" />
+              <div class="card-copy">
+                <h3>SILIMA AUTO & BEAUTY</h3>
+                <p data-i18n="cat3Text">Car accessories, cleaning tools and vehicle-care products.</p>
+              </div>
+            </article>
+
+            <article class="category-card">
+              <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=800&q=80" alt="Cars in a dealership" />
+              <div class="card-copy">
+                <h3>SILIMA AUTO SALES</h3>
+                <p data-i18n="cat4Text">Authorized vehicle listings with clear ownership and price details.</p>
+              </div>
+            </article>
+
+            <article class="category-card">
+              <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=800&q=80" alt="Car washing service" />
+              <div class="card-copy">
+                <h3>SILIMA AUTO CARE</h3>
+                <p data-i18n="cat5Text">Mobile car wash services requested directly by customers.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="featured" class="section alt-bg">
+        <div class="container">
+          <div class="section-heading split-heading">
+            <div>
+              <p class="section-tag" data-i18n="featureTag">Featured listings</p>
+              <h2 data-i18n="featureHeading">Popular items and services people are asking about</h2>
+            </div>
+            <a class="text-link" href="listings.html" data-i18n="viewMore">View more</a>
+          </div>
+
+          <div class="listing-grid">
+            <article class="listing-card">
+              <img src="https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=900&q=80" alt="Smartphone product" />
+              <div class="listing-body">
+                <span class="tag" data-i18n="tagElectronics">Electronics</span>
+                <h3>Smartphone Bundle</h3>
+                <p data-i18n="listing1Text">Latest model with warranty and accessories.</p>
+                <div class="listing-meta">
+                  <strong data-i18n="priceAsk">Ask for price</strong>
+                  <a href="https://wa.me/255718968769" target="_blank" rel="noreferrer" data-i18n="askWhatsApp">Ask on WhatsApp</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="listing-card">
+              <img src="https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=900&q=80" alt="Vehicle listing" />
+              <div class="listing-body">
+                <span class="tag" data-i18n="tagVehicle">Vehicles</span>
+                <h3>Registered SUV</h3>
+                <p data-i18n="listing2Text">Clean condition with verified details and owner approval.</p>
+                <div class="listing-meta">
+                  <strong>TZS 24,500,000</strong>
+                  <a href="https://wa.me/255718968769" target="_blank" rel="noreferrer" data-i18n="askWhatsApp2">Ask on WhatsApp</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="listing-card">
+              <img src="https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?auto=format&fit=crop&w=900&q=80" alt="Car wash service" />
+              <div class="listing-body">
+                <span class="tag" data-i18n="tagService">Auto Care</span>
+                <h3>Premium Mobile Wash</h3>
+                <p data-i18n="listing3Text">Interior and exterior cleaning with flexible appointment options.</p>
+                <div class="listing-meta">
+                  <strong data-i18n="fromPrice">From TZS 45,000</strong>
+                  <a href="carwash.html" data-i18n="bookNow">Book now</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section why-us">
+        <div class="container">
+          <div class="section-heading center">
+            <p class="section-tag" data-i18n="whyTag">Why SDCN</p>
+            <h2 data-i18n="whyHeading">Simple, reliable and built around customer trust</h2>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card">
+              <div class="icon-circle">01</div>
+              <h3 data-i18n="feature1Title">Verified information</h3>
+              <p data-i18n="feature1Text">Products and services are published only when details are checked.</p>
+            </article>
+
+            <article class="feature-card">
+              <div class="icon-circle">02</div>
+              <h3 data-i18n="feature2Title">WhatsApp-first flow</h3>
+              <p data-i18n="feature2Text">Customers can quickly inquire, negotiate and confirm details.</p>
+            </article>
+
+            <article class="feature-card">
+              <div class="icon-circle">03</div>
+              <h3 data-i18n="feature3Title">Mobile-first access</h3>
+              <p data-i18n="feature3Text">Designed for phones and fast browsing without clutter or confusion.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section service-panel">
+        <div class="container service-grid">
+          <div class="service-copy">
+            <p class="section-tag" data-i18n="serviceTag">Mobile car wash</p>
+            <h2 data-i18n="serviceHeading">Book a convenient wash from your location</h2>
+            <p data-i18n="serviceText">
+              Submit your preferred service, car type, and date. Requests stay in
+              pending confirmation until SDCN confirms your booking.
+            </p>
+            <ul>
+              <li data-i18n="servicePoint1">Exterior and interior detailing</li>
+              <li data-i18n="servicePoint2">Flexible time scheduling</li>
+              <li data-i18n="servicePoint3">Service area confirmation before booking</li>
+            </ul>
+          </div>
+
+          <form class="request-form" data-form="booking">
+            <h3 data-i18n="formTitle">Request a service</h3>
+            <label>
+              <span data-i18n="nameLabel">Full name</span>
+              <input type="text" placeholder="Your name" name="name" />
+            </label>
+            <label>
+              <span data-i18n="phoneLabel">Phone number</span>
+              <input type="tel" placeholder="+255 ..." name="phone" />
+            </label>
+            <label>
+              <span data-i18n="areaLabel">Area / landmark</span>
+              <input type="text" placeholder="Your location" name="area" />
+            </label>
+            <label>
+              <span data-i18n="vehicleLabel">Vehicle type</span>
+              <select name="vehicle">
+                <option>Saloon</option>
+                <option>SUV</option>
+                <option>Truck</option>
+                <option>Mini van</option>
+              </select>
+            </label>
+            <label>
+              <span data-i18n="serviceSelectLabel">Requested service</span>
+              <select name="service">
+                <option>Basic wash</option>
+                <option>Full interior & exterior</option>
+                <option>Premium detailing</option>
+              </select>
+            </label>
+            <button class="btn btn-primary full-width" type="submit" data-i18n="submitRequest">Send request</button>
+            <div class="form-status" aria-live="polite"></div>
+          </form>
+        </div>
+      </section>
+
+      <section class="section partner-cta">
+        <div class="container partner-box">
+          <div>
+            <p class="section-tag" data-i18n="partnerTag">Partner with us</p>
+            <h2 data-i18n="partnerHeading">Grow with SILIMA Digital Commerce Network</h2>
+          </div>
+          <a class="btn btn-primary" href="suppliers.html" data-i18n="becomeSupplier">Become a supplier</a>
+        </div>
+      </section>
+    </main>
+
+    <a class="whatsapp-float" href="https://wa.me/255718968769" target="_blank" rel="noreferrer" aria-label="Chat on WhatsApp">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.52 3.48A11.86 11.86 0 0 0 12.1 0C5.66 0 .35 5.31.35 11.75c0 2.08.54 4.12 1.57 5.92L0 24l6.52-1.7a11.75 11.75 0 0 0 5.58 1.7h.01c6.44 0 11.75-5.31 11.75-11.75 0-3.14-1.22-6.1-3.34-8.32Zm-8.42 18.05h-.01a9.78 9.78 0 0 1-4.98-1.36l-.36-.21-3.87 1 .99-3.77-.24-.39A9.75 9.75 0 0 1 2.35 11.75c0-5.4 4.4-9.8 9.82-9.8a9.78 9.78 0 0 1 9.8 9.8c0 5.4-4.4 9.8-9.8 9.8Zm5.38-7.34c-.29-.15-1.72-.85-1.99-.94-.27-.09-.46-.15-.65.15-.19.29-.73.94-.9 1.13-.16.19-.33.21-.61.07-.29-.15-1.22-.45-2.33-1.43-.86-.77-1.45-1.72-1.62-2.01-.17-.29-.02-.45.13-.59.13-.13.29-.34.44-.51.15-.17.19-.29.29-.48.09-.19.05-.36-.02-.51-.07-.15-.65-1.57-.89-2.15-.24-.58-.48-.5-.65-.5h-.56c-.19 0-.5.07-.76.36-.26.29-1 1-1 2.42 0 1.42 1.03 2.8 1.18 2.99.15.19 2 3.07 4.83 4.3.68.29 1.21.46 1.62.59.68.22 1.3.19 1.79.11.55-.08 1.72-.7 1.96-1.38.24-.68.24-1.26.17-1.38-.07-.12-.26-.19-.55-.33Z"/></svg>
+    </a>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a href="index.html" class="brand footer-brand">
+            <img src="assets/logo.svg" alt="SDCN logo" />
+            <span>SDCN</span>
+          </a>
+          <p data-i18n="footerText">
+            Connecting people to products and services through a simpler and more
+            trusted digital commerce experience.
+          </p>
+        </div>
+
+        <div>
+          <h4 data-i18n="quickLinks">Quick links</h4>
+          <ul>
+            <li><a href="listings.html" data-i18n="footerListings">Listings</a></li>
+            <li><a href="carwash.html" data-i18n="footerCarWash">Car Wash</a></li>
+            <li><a href="about.html" data-i18n="footerAbout">About</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 data-i18n="contactFooter">Contact</h4>
+          <ul>
+            <li>WhatsApp: +255 718 968 769</li>
+            <li>Email: hello@sdcn.co.tz</li>
+            <li>Dar es Salaam, Tanzania</li>
+          </ul>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p>© 2026 SILIMA Digital Commerce Network. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
